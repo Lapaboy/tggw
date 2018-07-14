@@ -9,21 +9,43 @@
         margin: 0 auto;
         font-family: "Open Sans";
     }
-    h1 {
-	font-family: "Open Sans";
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
+    h2 {
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+    }
+
+    section {
+        margin: 128px auto;
+    }
+
+    article {
+        margin-bottom: 64px; 
+        padding-bottom: 32px;
+        border-bottom: 1px solid rgba(0,0,0,.05);
     }
 </style>
 </head>
 <body>
-<h1>Welcome to tg-gw!</h1>
-<a href="https://z0r.de/3758" onclick="try {document.querySelector('a').addEventListener('click', (e) => {e.target.href = `https://z0r.de/${Math.floor(Math.random() * 7912) + 1}`})}catch(err){};" target="_blank">Click me, Newbie =) </a>
+
+<section>
+    <article>
+        <h2>Welcome to tg-gw!</h2>
+        <a href="https://z0r.de/3758" onclick="try {document.querySelector('a').addEventListener('click', (e) => {e.target.href = `https://z0r.de/${Math.floor(Math.random() * 7912) + 1}`})}catch(err){};" target="_blank">Click me, Newbie =) </a>    
+    </article>
+
+    <article>
+        <h2>Sun</h2>
+        <img id="sun" src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_0304.jpg" alt="sun" width="100%"/>
+        <a href="https://sdo.gsfc.nasa.gov" target="_blank">Solar Dynamics Observatory</a>
+    </article>
+</section>
+
 </body>
 <script>
-//document.querySelector('a').href = `https://z0r.de/${Math.floor(Math.random() * 7912) + 1}`;
+
 </script>
 </html>
