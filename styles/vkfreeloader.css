@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* font-family: Myriad Pro; */
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    background: #edeef0;
+}
+
+header {
+    background: #4a76a8;
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    width: 960px;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.header-content-icon {
+    width: 42px;
+}
+
+.header-content-logo {
+    margin-left: 12px;
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    align-items: center;
+    color: #ffffff;
+    letter-spacing: 0.7px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    border: 1px solid #d3d9de;
+    border-radius: 2px;
+    margin: 10px;
+    width: 550px;
+    padding: 20px;
+    background: #ffffff;
+
+    line-height: 1.462;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 13px;
+}
+
+.post:first-child {
+    margin-top: 20px;
+}
+
+.post:last-child {
+    margin-bottom: 40px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.post-header a {
+    text-decoration: none;
+}
+
+.post-avatar {
+    border-radius: 45px;
+
+}
+
+.post-info {    
+    margin-left: 12px;
+}
+
+.post-author {
+    font-weight: 600;
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+.post-date {
+    color: #939393;
+    font-size: 12.5px;
+}
+
+.post-img {
+    width: 100%;
+    margin: 12px 0;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VKFreeloader загрузка музыки ВК</title>
+    <meta charset="UTF-8">
+
+    <meta name="author" content="tg-gw.ru">
+    <meta name="copyright" content="tg-gw.ru">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chrome.google.com/webstore/detail/vk-freeloader/gljnhpjldjmagbklkfpllcbkhpbpggbk">
+    <meta id="meta_image" property="og:image" content="https://lh3.googleusercontent.com/ywLwutyjL_9PI4rdkhByi4Bltyath0zSozA1RdJQS-_BQPPupoz1wYmNtv8FA8nIDKZt3mnf=w640-h400-e365">
+    <meta property="og:title" content="Загрузка музыки из ВК!">
+    <meta property="og:description" content="Расширение для Google Chrome поможет без проблем скачать любую песню, а заодно заблокирует всю надоедливую рекламу на сайте">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="styles/vkfreeloader.css"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+</head>
+<body>
+    <header>
+        <a class="header-content" href="https://chrome.google.com/webstore/detail/vk-freeloader/gljnhpjldjmagbklkfpllcbkhpbpggbk">
+            <img class="header-content-icon" src='images/icon.png'>
+            <span class="header-content-logo">Freeloader</span> 
+        </a>
+    </header>
+    <main>
+        <div class='post'>
+            <div class='post-header'>
+                <a href='https://vk.com/go_lapko' target='_blank'><img class='post-avatar'src='images/me.jpg'></a>
+                <div class='post-info'>
+                    <a href='https://vk.com/go_lapko' target='_blank'><div class='post-author'>Артём Лапко</div></a>
+                    <div class='post-date'>2 ноября 2018</div>
+                </div>
+            </div>
+
+            <span>
+                VK Freeloader это расширение для браузера которое поможет
+                скачать любую аудиозапись с vk.com
+
+                Расширение удобно тем что добавляет к каждой песне кнопку
+                позволяющую её загрузить.
+
+                Установить расширение можно из <a href="https://chrome.google.com/webstore/detail/vk-freeloader/gljnhpjldjmagbklkfpllcbkhpbpggbk" target="_blank">
+                официального магазина расширений Google</a>
+
+                <a href="https://lh3.googleusercontent.com/ywLwutyjL_9PI4rdkhByi4Bltyath0zSozA1RdJQS-_BQPPupoz1wYmNtv8FA8nIDKZt3mnf=w640-h400-e365" target="_blank">
+                <img class='post-img' src='https://lh3.googleusercontent.com/ywLwutyjL_9PI4rdkhByi4Bltyath0zSozA1RdJQS-_BQPPupoz1wYmNtv8FA8nIDKZt3mnf=w640-h400-e365'>
+                </a>
+
+                P.S. Дополнительно блокирует всю рекламу на сайте.
+                    <br>- в новостной ленте
+                    <br>- под главным меню
+                    <br>- в аудио и видеозаписях
+            </span>
+        </div>
+
+        <div class='post'>
+                <div class='post-header'>
+                    <a href='https://vk.com/go_lapko' target='_blank'><img class='post-avatar'src='images/me.jpg'></a>
+                    <div class='post-info'>
+                            <a href='https://vk.com/go_lapko' target='_blank'><div class='post-author'>Артём Лапко</div></a>
+                        <div class='post-date'>4 ноября 2018</div>
+                    </div>
+                </div>
+    
+                <span>
+                    Как работают блокировщики рекламы?
+                    <br><br>
+
+
+                    Принцип их действия довольно прост, но сперва надо понимать как вообще реклама попадает на сайт.
+                    Когда владелец сайта договаривается с рекламодателем о показе рекламы, то выделяет ему на сайте 
+                    контейнер, в который в будут попадать разноцветные баннеры предлагающие вам ненужное барахло. Владелец заранее
+                    не знает какая именно реклама попадет в контейнер, так как рекламодатель рисует в ней все что пожелает (ну или то, за что ему платят люди которые хотят чтобы реклама была показана).
+                    <br><br>
+                    Для того чтобы реклама отрисовалась, в момент когда вы загружаете сайт у себя в браузере, происходит запрос рекламодателю о том что сайт нарисовался у пользователя, контейнер готов,
+                    и сайту нужен сам баннер который можно показать пользователю. Рекламодатель отвечает баннером и тут-то появляется блокировщик рекламы.
+                    <br><br>
+                    На самом деле, все что нужно сделать, это заблокировать такой запрос. Разработчики сайтов создают их как правило так, что если ответ от рекламодателя не пришел, то они скрывают пустой контейнер.
+                    Но как заблокировать такой запрос и как отличить его от запроса к, скажем, картинке?
+                    <br><br>
+                    Здесь в дело вступает easylist которым пользуется блокировщик, дело в том, что рекламодателей 
+                    существует ограниченное количество и всех их можно уместить в один или несколько списков, например 
+                    <a href="https://easylist.to/easylist/easylist.txt" target="_blank">вот таких</a>.
+                    Браузер предоставляет интерфейс который помогает перехватить <b>любой</b> запрос. Все что остается сделать,
+                    это сравнить совпадает ли адрес запроса с каким-нибудь адресом из списка и заблокировать его.
+                    <br><br>
+                    Часто проблема в том что владельцы ресурсов договариваются с владельцами блокировщиков и те убирают их из таких списков.
+                    Так-же не все сайты ходят за рекламой на все подряд ресурсы, некоторые, такие как ВКонтакте имеют всего несколько
+                    адресов которые нужно заблокировать и реклама на сайте исчезнет. На сегодняшний день это
+                    <br>
+                    '*://ad.mail.ru/*',
+                    <br>
+                    '*://vk.com/js/lib/px.js?ch=2'
+                    <a href='images/blocked.PNG' target='_blank'><img class='post-img' src='images/blocked.PNG'></a>
+    
+
+                </span>
+            </div>
+
+    </main>
+</body>
+</html>
