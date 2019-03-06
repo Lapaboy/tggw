@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes shake {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(-0deg); }
+  }
+
+  img {
+    display: inline-block;
+    width: 200px;
+  }
+
+  .img2 {
+    transform: scaleX(-1);
+  }
+
+  .fingerwrapper {
+    animation: shake 1s infinite;
+  }
+</style>
+<body>
+  <div class="fingerwrapper">
+    <img src="images/finger.png" class="shake"/>
+  </div>
+  <div class="fingerwrapper">
+    <img class="img2" src="images/finger.png" class="shake"/>
+  </div>
+  </div>
+</body>
+</html>
