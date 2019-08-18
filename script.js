@@ -1,5 +1,3 @@
-const main = {style:{}};
-
 const randHex = len => {
     const maxlen = 6;
     const min = Math.pow(16, Math.min(len, maxlen) - 1);
@@ -26,7 +24,7 @@ const next = i => setTimeout(async () => {
 
   i++;
   i = i == 3 ? 0 : i;
-  console.log(main);
+
   next(i);
 }, 400);
 next(0);
