@@ -15,7 +15,7 @@ const words = ['Hello', 'from', 'there'];
 const next = i => setTimeout(async () => {
 
   main.innerText = words[i];
-  main.style.backgroundColor = randHex(6);
+  main.style.color = randHex(6);
   main.style.fontFamily = [
     'Sedgwick Ave,cursive',
     'Gochi Hand,cursive',
