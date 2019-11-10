@@ -11,7 +11,7 @@ const randHex = len => {
     return r;
 };
 
-const words = ['Hello', 'from', 'there'];
+const words = ['Max', 'Velboy', 'Noob'];
 const next = i => setTimeout(async () => {
 
   main.innerText = words[i];
