@@ -6,10 +6,12 @@
   <title>NUHYYASEBE!</title>
 </head>
 <style>
+  html,
   body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
   }
 
   @keyframes shake {
@@ -23,6 +25,7 @@
   img {
     display: inline-block;
     width: 200px;
+    cursor: pointer;
   }
 
   .img2 {
@@ -41,5 +44,10 @@
     <img class="img2" src="images/finger.png" class="shake"/>
   </div>
   </div>
+  <script>
+    document.body.addEventListener('click', function() {
+       window.open('https://loosefer.github.io');
+    });
+  </script>
 </body>
 </html>
